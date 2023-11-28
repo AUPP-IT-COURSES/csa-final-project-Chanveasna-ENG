@@ -10,3 +10,14 @@ step 3: clone the repo to your local manchine alternatively, you can create a ne
 step 4: create of modify the necessary files to complete the lab assingment.
 step 5: after making changes, add, and commit then to your local repo and also push to the remote repo.
 
+# Project details
+
+To run the project you need [Python](https://www.python.org/downloads/) 3.6+ and also need to install the following packages or run requirements.txt file:
+```
+pip install numpy
+pip install opencv-python
+pip install pytesseract
+pip install pillow
+```
+You also need to install tesseract-ocr from the following link:
+[Tesseract OCR installation](https://tesseract-ocr.github.io/tessdoc/Installation.html)

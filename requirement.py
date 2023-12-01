@@ -15,7 +15,7 @@ def main():
     install('opencv-python')
     install('pytesseract')
     install('pillow')
-
+    install('clipboard')
 
 if __name__ == '__main__':
     main()

@@ -22,7 +22,19 @@ pip install numpy
 pip install opencv-python
 pip install pytesseract
 pip install pillow
-pip install clipboard
+pip install pywin32
 ```
 You also need to install tesseract-ocr from the following link:
 [Tesseract OCR installation](https://tesseract-ocr.github.io/tessdoc/Installation.html)
+
+This is a project base on Tesseract OCR and OpenCV to detect and recognize text in images. What
+I have done is just to build a GUI for it. The GUI is built by using Tkinter. The GUI is very simple. I have also added some features to this project for example the user are able to control
+the contrast, smoothness, crop/transform the image.
+
+# How to use the GUI
+
+The UI is very easy and understandable to use. The user just need to select the image and then
+click on the button to start the process. The user can also change the contrast and smoothness
+of the image. The user can also crop the image and transform the image. The user can also
+paste the image from clipboard (ctrl+v) to the application and start working on it. If you do
+ctrl + c, the text will be copy to your clipboard.

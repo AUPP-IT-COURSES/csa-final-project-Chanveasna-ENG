@@ -46,6 +46,6 @@ really good at recognizing the text in the image if it is hand written text. How
 is typed, it will work perfectly. The other limitation is that the user can only select one image
 at a time. The user can not select multiple images at a time. The other limitation is that the user can not save the image. The user can only save the text. The other limitation is that the user can not select the language. The user can only select the language from the code.
 
-![Hand Written](hand.png)
+![Hand Written](image/hand.png)
 
-![Typed](typed.png)
+![Typed](image/typed.png)

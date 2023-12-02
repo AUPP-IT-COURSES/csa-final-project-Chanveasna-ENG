@@ -38,3 +38,14 @@ click on the button to start the process. The user can also change the contrast 
 of the image. The user can also crop the image and transform the image. The user can also
 paste the image from clipboard (ctrl+v) to the application and start working on it. If you do
 ctrl + c, the text will be copy to your clipboard.
+
+# limitations
+
+This project is not perfect. It has some limitations. Because of the Tesseract OCR, it is not
+really good at recognizing the text in the image if it is hand written text. However, if the text
+is typed, it will work perfectly. The other limitation is that the user can only select one image
+at a time. The user can not select multiple images at a time. The other limitation is that the user can not save the image. The user can only save the text. The other limitation is that the user can not select the language. The user can only select the language from the code.
+
+![Hand Written](hand.png)
+
+![Typed](typed.png)
